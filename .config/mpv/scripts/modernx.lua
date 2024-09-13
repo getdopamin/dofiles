@@ -2885,7 +2885,8 @@ function osc_init()
             return (icons.download)
         end
     end
-    ne.visible = (osc_param.playresx >= 1100 - outeroffset - (user_opts.showloop and 0 or 100) - (user_opts.showontop and 0 or 100) - (user_opts.showinfo and 0 or 100) - (user_opts.showscreenshot and 0 or 100)) and state.isWebVideo
+    ne.visible = false
+    --ne.visible = (osc_param.playresx >= 1100 - outeroffset - (user_opts.showloop and 0 or 100) - (user_opts.showontop and 0 or 100) - (user_opts.showinfo and 0 or 100) - (user_opts.showscreenshot and 0 or 100)) and state.isWebVideo
     ne.tooltip_style = osc_styles.Tooltip
     ne.tooltipF = function ()
         local msg = state.fileSizeNormalised
