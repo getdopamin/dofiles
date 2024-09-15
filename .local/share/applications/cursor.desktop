@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Cursor
+Exec=/home/sumit/AppImages/cursor.appimage --no-sandbox %U
+TryExec=/home/sumit/AppImages/cursor.appimage
+Icon=/home/sumit/AppImages/.icons/cursor.png
+Terminal=false
+Type=Application
+
+StartupWMClass=Cursor
+X-AppImage-Version=2409052yfcjagw2
+Comment=Cursor is an AI-first coding environment.
+MimeType=x-scheme-handler/cursor;
+Categories=Utility;
+
+X-AppImage-Version=2409052yfcjagw2

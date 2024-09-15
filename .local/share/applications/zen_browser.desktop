@@ -1,0 +1,36 @@
+[Desktop Entry]
+Name=Zen Browser
+Comment=Experience tranquillity while browsing the web without people tracking you!
+Exec=/home/sumit/AppImages/zen_browser.appimage %u
+TryExec=/home/sumit/AppImages/zen_browser.appimage
+Icon=/home/sumit/AppImages/.icons/zen_browser.png
+
+Type=Application
+MimeType=text/html;text/xml;application/xhtml+xml;x-scheme-handler/http;x-scheme-handler/https;application/x-xpinstall;application/pdf;application/json;
+StartupWMClass=zen-alpha
+Categories=Network;WebBrowser;
+StartupNotify=true
+Terminal=false
+X-MultipleArgs=false
+Keywords=Internet;WWW;Browser;Web;Explorer;
+Actions=new-window;new-private-window;profilemanager;
+
+[Desktop Action new-window]
+Name=Zen Browser
+Exec=/home/sumit/AppImages/zen_browser.appimage %u
+TryExec=/home/sumit/AppImages/zen_browser.appimage
+Icon=/home/sumit/AppImages/.icons/zen_browser.png
+
+[Desktop Action new-private-window]
+Name=Zen Browser
+Exec=/home/sumit/AppImages/zen_browser.appimage %u
+TryExec=/home/sumit/AppImages/zen_browser.appimage
+Icon=/home/sumit/AppImages/.icons/zen_browser.png
+
+[Desktop Action profilemanager]
+Name=Zen Browser
+Exec=/home/sumit/AppImages/zen_browser.appimage %u
+TryExec=/home/sumit/AppImages/zen_browser.appimage
+Icon=/home/sumit/AppImages/.icons/zen_browser.png
+
+X-AppImage-Version=9de65b

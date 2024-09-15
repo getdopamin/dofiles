@@ -1,0 +1,40 @@
+theme = "Catppuccin Macchiato"
+default_source = "Nyaa"
+download_client = "DownloadTorrentFile"
+timeout = 30
+scroll_padding = 3
+cursor_padding = 4
+save_config_on_change = true
+hot_reload_config = true
+
+[client.command]
+cmd = 'curl "{torrent}" > ~/{file}'
+shell_cmd = "sh -c"
+
+[client.qBittorrent]
+base_url = "http://localhost:8080"
+
+[client.default_app]
+use_magnet = false
+
+[client.download]
+save_dir = "/home/sumit/Downloads"
+overwrite = true
+create_root_folder = true
+
+[source.nyaa]
+base_url = "ny.iss.one"
+default_sort = "Date"
+default_sort_dir = "Desc"
+default_filter = "NoFilter"
+default_category = "AllCategories"
+default_search = ""
+rss = false
+
+[source.torrentgalaxy]
+base_url = "tgx.rs"
+default_sort = "Date"
+default_sort_dir = "Desc"
+default_filter = "NoFilter"
+default_category = "AllCategories"
+default_search = ""
